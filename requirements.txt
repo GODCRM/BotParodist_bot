@@ -1,0 +1,3 @@
+python-telegram-bot==22.0
+TTS==0.22.0
+psutil==5.9.8 
