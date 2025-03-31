@@ -42,7 +42,6 @@ temp_audio/
 *.mp3
 *.ogg
 config.json
-.cursorrules
 *.log
 
 # TTS specific
