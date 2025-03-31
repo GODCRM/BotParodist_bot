@@ -1,9 +1,0 @@
-{
-    "project_type": "Python TTS Bot",
-    "language": {
-        "code": "Python",
-        "interface": "Russian",
-        "messages": "All user-facing messages must be in Russian language"
-    },
-    "description": "Telegram bot that generates voice messages using TTS models"
-} 
