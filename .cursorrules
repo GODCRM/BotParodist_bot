@@ -1,45 +1,9 @@
 {
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.flake8Enabled": true,
-    "python.formatting.provider": "black",
-    "editor.formatOnSave": true,
-    "editor.rulers": [88],
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.exclude": {
-        "**/__pycache__": true,
-        "**/*.pyc": true,
-        "**/temp_audio": true,
-        "**/.tts_cache": true,
-        "**/models": true,
-        "**/*.wav": true,
-        "**/*.mp3": true,
-        "**/*.ogg": true
+    "project_type": "Python TTS Bot",
+    "language": {
+        "code": "Python",
+        "interface": "Russian",
+        "messages": "All user-facing messages must be in Russian language"
     },
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/*.code-search": true,
-        "**/temp_audio": true,
-        "**/.tts_cache": true,
-        "**/models": true,
-        "**/*.wav": true,
-        "**/*.mp3": true,
-        "**/*.ogg": true
-    },
-    "files.associations": {
-        "*.py": "python"
-    },
-    "python.analysis.typeCheckingMode": "basic",
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.inlayHints.functionReturnTypes": true,
-    "python.analysis.inlayHints.variableTypes": true,
-    "python.analysis.packageIndexDepths": [
-        {
-            "name": "TTS",
-            "depth": 2
-        }
-    ]
+    "description": "Telegram bot that generates voice messages using TTS models"
 } 
