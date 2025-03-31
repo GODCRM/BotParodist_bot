@@ -54,4 +54,7 @@ models/
 
 # System Files
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Cursor Rules
+.cursorrules 
